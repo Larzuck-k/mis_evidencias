@@ -1,0 +1,46 @@
+/* Estilos generales */
+
+* { /* Establecer cambios al cargar la página html */
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh; /* Se establece la altura */
+    display: flex;   /* Tipo de orden a mostrar es auto ajustable*/
+    justify-content: center; /* Justificacion de contenido en el centro */
+    align-items: center; /* Alineación de los objetos en el centro */
+    text-align: center; /* Alineación del texto en el centro */
+    background-color: rgb(233, 240, 245); /* color del fondo */
+  }
+  
+  /* Contenedores */
+  
+  .contenedor-principal {
+    width: 50vw; /* Se establece el ancho */
+    max-width: 600px; /* Ancho máximo  */
+    min-height: 350px; /* Altura mínima */
+    display: flex;
+    flex-wrap: wrap; /* establece si puede haber cambio de linea */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px; /* redondear borde */
+  }
+  
+  .color {
+    padding: 20px; /*Espaciado de relleno  */
+    margin: 10px; /* Espaciado de margen */
+    font-size: 2em; /* Tamaño de fuente */
+    font-weight: bold; /* Estilo de fuente */
+    font-family: Georgia, "Times New Roman", Times, serif; /* Tipo de fuente */
+    display: flex;
+    flex-direction: column; /* Direccion del orden de maquetación en forma de columna */
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  label,
+  p {
+    margin: 20px;
+  }
